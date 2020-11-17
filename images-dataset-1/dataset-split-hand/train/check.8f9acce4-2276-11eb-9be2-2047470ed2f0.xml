@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images-dataset-1</folder>
+	<filename>check.8f9acce4-2276-11eb-9be2-2047470ed2f0.jpg</filename>
+	<path>D:\ML\Labelling\capture\images-dataset-1\check.8f9acce4-2276-11eb-9be2-2047470ed2f0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>check</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>120</xmin>
+			<ymin>167</ymin>
+			<xmax>373</xmax>
+			<ymax>467</ymax>
+		</bndbox>
+	</object>
+</annotation>

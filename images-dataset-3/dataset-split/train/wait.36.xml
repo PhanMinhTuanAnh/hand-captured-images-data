@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collect-images3</folder>
+	<filename>wait.36.jpg</filename>
+	<path>D:\ML\Labelling\capture\collect-images3\wait.36.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wait</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>264</xmin>
+			<ymin>16</ymin>
+			<xmax>390</xmax>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+</annotation>
