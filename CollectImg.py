@@ -3,9 +3,9 @@ import os
 import time
 import uuid
 
-IMAGES_PATH = "collect-images44"
+IMAGES_PATH = "collect-images45"
 labels = ['write1', 'write2', 'write3', 'wait', 'stop', 'back', 'check']
-number_imgs = 15
+number_imgs = 10
 i = 0
 for label in labels:
     cap = cv2.VideoCapture(0)
@@ -19,8 +19,8 @@ for label in labels:
     for imgnum in range(number_imgs):
         ret, frame = cap.read()
         frame = cv2.flip(frame, 1)
-        # imagename = os.path.join(IMAGES_PATH + "/" + label + "." + "{}.jpg".format(str(61+imgnum)))
-        imagename = os.path.join(IMAGES_PATH + "/" + "multi" + "." + "{}.jpg".format(str(201+i)))
+        imagename = os.path.join(IMAGES_PATH + "/" + label + "." + "{}.jpg".format(str(81+imgnum)))
+        # imagename = os.path.join(IMAGES_PATH + "/" + "multi" + "." + "{}.jpg".format(str(306+i)))
         i = i + 1
         print(imagename)
         cv2.imwrite(imagename, frame)
