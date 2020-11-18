@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>wait.25.jpg</filename>
+	<path>D:\ML\Labelling\capture\images-dataset-4\dataset\wait.25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wait</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>908</xmin>
+			<ymin>175</ymin>
+			<xmax>1099</xmax>
+			<ymax>518</ymax>
+		</bndbox>
+	</object>
+</annotation>
