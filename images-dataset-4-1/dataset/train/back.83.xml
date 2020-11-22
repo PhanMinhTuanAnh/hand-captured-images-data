@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>back.83.jpg</filename>
+	<path>D:\ML\Labelling\capture\images-dataset-4\dataset\back.83.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>back</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>687</xmin>
+			<ymin>157</ymin>
+			<xmax>1089</xmax>
+			<ymax>412</ymax>
+		</bndbox>
+	</object>
+</annotation>
